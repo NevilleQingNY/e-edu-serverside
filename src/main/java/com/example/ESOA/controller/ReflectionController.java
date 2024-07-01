@@ -16,7 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @RestController
 @RequestMapping("/reflectionServlet")
 @CrossOrigin(origins = {
-        "https://electromagnetic-tutorial.onrender.com"
+        "https://electromagnetic-tutorial.zeabur.app"
 })
 public class ReflectionController {
 
