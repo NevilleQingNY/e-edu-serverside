@@ -32,6 +32,7 @@ public class ReflectionController {
 
     @PostMapping
     public void handlePost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        
         String conductivity_value = request.getParameter("conductivity");
         String epsilon_value = request.getParameter("epsilon");
         String frequency_value = request.getParameter("frequency");
@@ -44,6 +45,7 @@ public class ReflectionController {
         try {
             tutorial_choice = Integer.parseInt(tutorial_value);
             System.out.println(tutorial_choice);
+
 
         } catch (NumberFormatException e) {
             response.setStatus(HttpStatus.BAD_REQUEST.value());

@@ -26,7 +26,15 @@ public class complex {
 	public double abs() {
 		return Math.sqrt(real*real + imag*imag ) ; 
 	}
-	
+
+	public complex expj(){
+		return new complex( Math.exp(real)*Math.cos(imag), Math.exp(real)*Math.sin(imag) ) ;
+		}
+
+	public complex exp_complex(){
+		return new complex( Math.exp(real)*Math.cos(imag), Math.exp(real)*Math.sin(imag) ) ;
+		}
+
 	public complex exp(){
 		return new complex( Math.exp(real)*Math.cos(imag), Math.exp(real)*Math.sin(imag) ) ;
 		}
@@ -68,6 +76,14 @@ public class complex {
 		real = the_complex.real;
 		imag = the_complex.imag ; 
 	}
+
+	public void setreal( double the_real) {
+		real = the_real;
+		}
+
+	public void setimag( double the_imag) {
+		imag = the_imag;
+		}
 	
 	public complex plus( complex number1) {
 		complex result ; 

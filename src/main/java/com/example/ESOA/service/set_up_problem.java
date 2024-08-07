@@ -1,11 +1,3 @@
-//
-//  set_up_problem.java
-//  reflection
-//
-//  Created by Conor Brennan on 07/09/2011.
-//  Copyright 2011 Dublin City University. All rights reserved.
-//
-
 package com.example.ESOA.service ; 
 
 
