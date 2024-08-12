@@ -38,11 +38,6 @@ public class newUTDServlet {
         String RX_distance_value = request.getParameter("RX_distance");
         String epsilon_r_value = request.getParameter("epsilon");
 
-        System.out.println("Received parameters:");
-        System.out.println("TX_height_value: " + TX_height_value);
-        System.out.println("frequency_value: " + frequency_value);
-        System.out.println("RX_distance_value: " + RX_distance_value);
-        System.out.println("epsilon_r_value: " + epsilon_r_value);
 
         if (TX_height_value == null || frequency_value == null || RX_distance_value == null || epsilon_r_value == null) {
             response.setStatus(HttpStatus.BAD_REQUEST.value());

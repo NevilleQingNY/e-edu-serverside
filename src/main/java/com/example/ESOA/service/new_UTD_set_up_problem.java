@@ -26,13 +26,6 @@ public class new_UTD_set_up_problem {
 		f_in_GHz		=	Double.parseDouble(frequency_value);
 		RX_x_distance  = Double.parseDouble(RX_distance_value) ; 
 		epsilon_r		= Double.parseDouble(epsilon_r_value) ;
-	//	sigma = Double.parseDouble(conductivity_value) ;
-		
-       	/*System.out.println("f in MHz : " + f_in_MHz);
-       	System.out.println("wedge_angle : " + wedge_angle);
-       	System.out.println("theta_inc : " + theta_inc);
-       	System.out.println("radius_in_wavelengths: " + radius_in_wavelengths);
-       	*/
 	}
 
 	public	void initialise_variables(){

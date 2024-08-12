@@ -78,18 +78,10 @@ public class diffraction_models {
     			    
     				d1= global_pos_x[m+1]-global_pos_x[m];
     			    d2= global_pos_x[m+2]-global_pos_x[m+1];
-    			    /*System.out.println("pos_x m equals "+global_pos_x[m]) ;
-    			    System.out.println("pos_x m equals "+global_pos_x[m+1]) ;
-    			    System.out.println("pos_x m equals "+global_pos_x[m+2]) ;
-        			  */  
+    		
     			    hobs= global_pos_y[m+1]-(( d1 *(global_pos_y[m+2]-global_pos_y[m])/(global_pos_x[m+2]- global_pos_x[m]  ))+ global_pos_y[m] );
     			    nu = hobs*Math.sqrt((2.0/lambda)*(d1+d2)/(d1*d2));
     			   
-    			    /*System.out.println("nu equals "+nu) ;
-    			    System.out.println("hobs equals "+hobs);
-    			    System.out.println("d1 equals "+d1) ;
-    			    System.out.println("d2 equals "+d2);
-    			  */
     			    
     			    if (nu< -0.7)
     			        Ldi[m] = 0.0;
