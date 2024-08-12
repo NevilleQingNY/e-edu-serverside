@@ -5,7 +5,7 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <display-name>Your React Java App</display-name>
+    <display-name> React Java App</display-name>
 
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
