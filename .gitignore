@@ -1,5 +1,7 @@
-HELP.md
-target/
+# HELP.md  # 如果您需要这个文件，请删除或注释掉这一行
+
+# Maven
+/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
